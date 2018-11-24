@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SearchBox = ({ onSearchChange })=> {
+	console.log('SearchBox')
 	// OR { onSearchChange } = props    when you pass in props as arg
 	return (
 		<div className="pa2">
