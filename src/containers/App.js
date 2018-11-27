@@ -6,7 +6,6 @@ import Header from './Header';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll'
 import ErrorBoundary from '../containers/ErrorBoundary'
-import CounterButton from './CounterButton'
 import './App.css';
 
 import { connect } from 'react-redux'
@@ -62,7 +61,6 @@ class App extends Component {
 			return (
 				<div className="tc">
 					{loadFailed ? <p className="error">Connection To API End-point Failed</p> : <h1>Loading...</h1>}
-					<CounterButton color={'red'} />
 				</div>
 
 			)
