@@ -9,7 +9,7 @@ class Card extends Component {
 		return (
 			// robots.forEach( ( item, index ) => {
 				<div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 tc'>
-					<img alt="robot_img" src={`https://robohash.org/${this.props.id}?200x200`} />
+					<img alt="robot_img" src={`https://robohash.org/${this.props.id}?size=200x200`} />
 					<div>
 						<h2>{this.props.name}</h2>
 						<p>{this.props.email}</p>

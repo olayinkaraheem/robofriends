@@ -5,7 +5,7 @@ const SearchBox = ({ onSearchChange })=> {
 	// OR { onSearchChange } = props    when you pass in props as arg
 	return (
 		<div className="pa2">
-		<input type="search" placeholder="search robots" className="pa3 ba b--green bg-lightest-blue" onChange={onSearchChange}/>
+		<input type="search" placeholder="search robots" className="pa3 ba b--green bg-lightest-blue" onChange={onSearchChange} aria-label="search input field"/>
 		</div>
 	)
 }
